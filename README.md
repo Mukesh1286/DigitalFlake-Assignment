@@ -1,11 +1,11 @@
-------For Backend--------
+For Backend 
    
 cd backend
 
 npm run server
 
 
------For Frontend-----
+For Frontend 
    
 cd digital-assignment 
 
