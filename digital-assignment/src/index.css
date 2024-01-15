@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.row{
+  margin: 30px;
+ 
+}
+h6{
+  font-size: 15px;
+  margin-left: 10px;
+}
+.login{
+ 
+ background-color: rgb(34, 11, 71);
+}
+.card{
+  margin: 30px;
+  color: #3b076b;
+ border-radius: 1px;
+ /* box-shadow: 10px 10px rgb(71, 5, 109); */
+ box-shadow: 10px 10px 5px rgb(53, 6, 139);
+ border: 1px solid rgb(53, 6, 97);
+}
+
+/* .adminNavbar-top{
+  background-color: #3b076b;
+} */
+.adminNavbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  
+  h1{
+    color: #470d8a;
+    font-size: 20px;
+    font-weight: 700;
+  }
+ 
+}
+
+.addhead{
+  font-size: 30px;
+  font-weight: 700;
+}
+.add-cat{
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+flex-direction: column;
+  /* margin: 200px; */
+  
+}
+
+.logodigital{
+  font-size: 27px;
+  font-weight: 700;
+  /* color: #dfdde6; */
+}
+
+.textadmin{
+  display: flex;
+ margin-top: 100px;
+  font-size: 30px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  img{
+    width: 200px;
+    height: 150px;
+    margin-top: 50px;
+  }
+}
+
+.forgot1{
+  width: 100%;
+ color: #3b076b;
+ border-radius: 1px;
+ /* box-shadow: 10px 10px rgb(71, 5, 109); */
+ box-shadow: 10px 10px 5px rgb(53, 6, 139);
+ border: 1px solid rgb(72, 24, 116);
+}
+.buttonrest{
+  background-color: #3b076b;
+  color: #eeecec;
+}
+.btn1{
+  background-color: #3b076b;
+  color: #eeecec;
+}
+
+.addnew{
+  font-size: 20px;
+  font-weight: 700;
+  color: #33045c;
+  
+}
